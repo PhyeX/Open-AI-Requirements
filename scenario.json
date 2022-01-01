@@ -1,0 +1,16 @@
+{
+  "done": {
+    "variables": {
+      "enemy_matches_won": {
+        "op": "equal",
+        "reference": 2
+      }
+    }
+  },
+  "reward": {
+    "script": "lua:calculate_reward"
+  },
+  "scripts": [
+    "script.lua"
+  ]
+}
